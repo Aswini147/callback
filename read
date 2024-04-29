@@ -1,0 +1,9 @@
+The task involved implementing functionality for two buttons - "Set Interval" and "Clear Interval". Upon clicking the "Set Interval" button, a callback function would continuously iterate a counter value until the "Clear Interval" button is clicked.
+
+**Approach:**
+To accomplish this, I utilized JavaScript's Callbacks & Scheduler methods, including `setInterval()` and `clearInterval()`. 
+
+1. `setInterval()` method was employed to initiate the continuous execution of the callback function at specified intervals.
+2. `clearInterval()` method was used to halt the iteration process once the "Clear Interval" button was clicked.
+
+This task not only provided a hands-on experience with JavaScript's scheduling mechanisms but also emphasized the importance of callbacks in managing asynchronous operations effectively.
